@@ -1,0 +1,4 @@
+rootProject.name = 'back-account'
+//project('cqrs.core').projectDir = new File("C:/Users/sahli/Desktop/java-projects/cqrs-es/cqrs.core/cqrs.core")
+
+include 'account.cmd', 'account.query', 'account.common', 'cqrs.core'
